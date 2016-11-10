@@ -15,6 +15,7 @@ public class ArrayPanel extends JPanel
 	
 	public ArrayPanel(ArrayController baseController)
 	{
+		super();
 		this.baseController = baseController;
 		this.baseLayout = new SpringLayout();
 		this.myButton = new JButton("Click the button");
