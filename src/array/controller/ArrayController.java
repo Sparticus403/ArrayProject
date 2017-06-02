@@ -26,7 +26,7 @@ public class ArrayController
 			hipsters[index] = new Hipster("Hipster #" + index);
 		}
 		
-		hipsters[0].setName("asdasd")
+		hipsters[0].setName("asdasd");
 		
 		for(Hipster current : hipsters)
 		{
